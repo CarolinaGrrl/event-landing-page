@@ -4,8 +4,17 @@
 
 /* elements */
 
+h1 {
+
+}
+
 button {
     max-width: 200px;
+    }
+
+.btn-lav{
+    background-color: rgb(136, 24, 196);
+    color: white;
 }
 
 img {
@@ -23,6 +32,19 @@ img {
     position: relative;
 }
 
+.tickets {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lipstick.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .slide {
     min-height: 500px;
 }
+
+.logo {
+    height: 100px;
+}
+

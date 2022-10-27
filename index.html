@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Sepia Beauty Expo!</title>
+    <title>Gossamer Beauty Expo!</title>
   </head>
   <body class="container">
 
@@ -21,12 +21,13 @@
       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav> -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Tiffany Corp</a>
+          <a href="index.html"><img class="logo" src="img/Gossamer-logo.png" alt="logo"></a>
+          <!-- <a class="navbar-brand" href="index.html">Gossamer Beauty Logo</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#speakers">Speakers</a>
               </li>
@@ -34,7 +35,7 @@
                 <a class="nav-link" href="#tickets">Tickets</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#venue">Venue</a>
+                <a class="nav-link "href="#venue">Venue</a>
               </li>
               
               <!-- <li class="nav-item dropdown">
@@ -61,11 +62,69 @@
       </nav>
     </header>
 
-    <div id="hero-section" class="hero slide d-flex flex-column justify-content-center text-white text-center align-items-center">
-      <h1>Sepia Beauty Expo!</h1>
-      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, vitae?</p>
-      <button class="btn btn-lg btn-success">BUY TICKETS</button>
+    <!-- ---Carousel--- -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/hero-1.jpg" class="d-block w-100" alt="dazzle">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/hero-1.jpg" class="d-block w-100" alt="Purple-Haired Woman">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/hero-2.jpg" class="d-block w-100" alt="Woman in Pool of Blue">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pexels-bestbe-models-2331539.jpg" class="d-block w-100" alt="addis">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fourth slide label</h5>
+            <p>Some representative placeholder content for the fourth slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pexels-charles-nunes-4329754.jpg" class="d-block w-100" alt="nunes">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fifth slide label</h5>
+            <p>Some representative placeholder content for the fifth slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  
+    <!-- ---Carousel ends--- -->
+    
+    <!-- <div id="hero-section" class="hero slide d-flex flex-column justify-content-center text-white text-center align-items-center">
+      <h1>Gossamer Beauty Week!</h1>
+      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, vitae?</p>
+      <button class="btn btn-lav btn-lg">BUY TICKETS</button>
+    </div> -->
     
     <div id="speakers" class="slide text-center d-flex flex-column justify-content-center mt-5">
       <h2>Speakers</h2>
@@ -76,40 +135,35 @@
         <div class="speaker-card col">
           <img src="img/pexels-marlon-schmeiski-3839904.jpg" alt="Yolanda Byrne">
           <h3 class="mt-2">Yolanda Byrne</h3>
-          <p>Speaker bio</p>
-          <p>@username</p>
+          <p>Braider, Loctician</p>
         </div>
         
         <div class="speaker-card col">
           <img src="img/pexels-jennifer-enujiugha-1125328.jpg" alt="Tola Adetunji">
           <h3 class="mt-2">Tola Adetunji</h3>
-          <p>Speaker bio</p>
-          <p>@username</p>
+          <p>Esthetician</p>
         </div>
 
         <div class="speaker-card col">
           <img src="img/pexels-vinicius-altava-2657594.jpg" alt="Corynne Altava">
           <h3 class="mt-2">Corynne Altava</h3>
-          <p>Speaker bio</p>
-          <p>@username</p>
+          <p>Makeup Artist</p>
         </div>
 
         <div class="speaker-card col">
           <img src="img/pexels-pixabay-37546.jpg" alt="Amaya Stone">
           <h3 class="mt-2">Amaya Stone</h3>
-          <p>Speaker bio</p>
-          <p>@username</p>
+          <p>Nail Technician</p>
         </div>
 
       </div>
 
     </div>
 
-    <div id="tickets" class="slide d-flex flex-column justify-content-center text-center align-items-center bg-dark text-white">
+    <div id="tickets" class="tickets slide d-flex flex-column justify-content-center text-center align-items-center bg-dark text-white">
       <h2>Reserve Your Ticket Now!</h2>
-      <img src="img/lipstick.jpg" alt="tube of lipstick">
       <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate nam, at ab ipsam repudiandae?</p>
-      <button class="btn btn-success btn-lg">Buy ticket $175</button>
+      <button class="btn btn-lav btn-lg">Buy ticket $175</button>
     </div>
 
     <div id="venue" class="slide d-flex flex-column justify-content-center p-5 align-items-center">
